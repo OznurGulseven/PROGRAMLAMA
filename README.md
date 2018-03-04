@@ -34,32 +34,32 @@
     performans=((z*q)/(x/y))
     return performans
 
-  def kaliteHesapla ():
-    s=int(input("sağlam ürün miktarını giriniz:"))
-    p=int(input("toplam Üretim mitarını giriniz:"))
-    kalite=(s/p)
-    return kalite
+     def kaliteHesapla ():
+     s=int(input("sağlam ürün miktarını giriniz:"))
+     p=int(input("toplam Üretim mitarını giriniz:"))
+     kalite=(s/p)
+     return kalite
     
- def OeeHesapla ():
-    x=int(input("planlanmış üretim süresi giriniz:"))
-    y=int(input("plansız duruşu giriniz:"))
-    z=int(input("standart çevrim süresini giriniz:"))
-    q=int(input("üretim miktarını giriniz."))
-    s=int(input("sağlam ürün miktarını giriniz:"))
-    p=int(input("toplam Üretim mitarını giriniz:"))
-    Oee=(((x-y)/x)*((z*q)/(x/y))*(s/p)*100/100)
-    return Oee
+     def OeeHesapla ():
+     x=int(input("planlanmış üretim süresi giriniz:"))
+     y=int(input("plansız duruşu giriniz:"))
+     z=int(input("standart çevrim süresini giriniz:"))
+     q=int(input("üretim miktarını giriniz."))
+     s=int(input("sağlam ürün miktarını giriniz:"))
+     p=int(input("toplam Üretim mitarını giriniz:"))
+     Oee=(((x-y)/x)*((z*q)/(x/y))*(s/p)*100/100)
+     return Oee
 #Ödev3
 
 
-   def ciroHesapla (x,y):
-   print (x*y)
-   #z=toplam ciro, q=toplam çalışan sayısı
-   def AdambasiCiroHesapla (z,q):
-   print (z/q)
-   #x=satış miktarı, y=birim fiyatı
-   def ciroHesapla (x,y):
-   print (x*y)
-   #z=toplam ciro, q=toplam çalışan sayısı
-   def AdambasiCiroHesapla (z,q):
-   print (z/q)
+     def ciroHesapla (x,y):
+     print (x*y)
+     #z=toplam ciro, q=toplam çalışan sayısı
+     def AdambasiCiroHesapla (z,q):
+     print (z/q)
+     #x=satış miktarı, y=birim fiyatı
+     def ciroHesapla (x,y):
+     print (x*y)
+     #z=toplam ciro, q=toplam çalışan sayısı
+     def AdambasiCiroHesapla (z,q):
+     print (z/q)
