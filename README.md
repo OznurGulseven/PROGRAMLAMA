@@ -52,14 +52,14 @@
 #Ödev3
 
 
-def ciroHesapla (x,y):
-    print (x*y)
-#z=toplam ciro, q=toplam çalışan sayısı
-def AdambasiCiroHesapla (z,q):
-    print (z/q)
-#x=satış miktarı, y=birim fiyatı
-def ciroHesapla (x,y):
-    print (x*y)
-#z=toplam ciro, q=toplam çalışan sayısı
-def AdambasiCiroHesapla (z,q):
-    print (z/q)
+   def ciroHesapla (x,y):
+   print (x*y)
+   #z=toplam ciro, q=toplam çalışan sayısı
+   def AdambasiCiroHesapla (z,q):
+   print (z/q)
+   #x=satış miktarı, y=birim fiyatı
+   def ciroHesapla (x,y):
+   print (x*y)
+   #z=toplam ciro, q=toplam çalışan sayısı
+   def AdambasiCiroHesapla (z,q):
+   print (z/q)
