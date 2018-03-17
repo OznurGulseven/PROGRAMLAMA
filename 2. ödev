@@ -1,9 +1,9 @@
 #Soru 1   
     
 x=int(input("toplam satış miktarını giriniz:"))
-y=int(input("hammadde maliyetini giriniz:"))
 z=int(input("bakım onarım giderlerini giriniz:"))
 q=int(input("sevkiyat giderlerini giriniz:"))
+y=int(input("hammadde maliyetini giriniz:"))
 w=int(input("satın alınan hizmet giderlerini giriniz:"))
 katmadegerciro=(x-(y+z+q+w))
 if (int(katmadegerciro)>1000):
