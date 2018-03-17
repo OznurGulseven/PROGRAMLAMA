@@ -16,11 +16,11 @@
  #Ödev 2
 
 
-           def ikibinonaltiYiliHesapla ():
-           x= int(input("İkibinonaltı yılı çalışılan süreyi giriniz:"))
-           y= int(input("İkibinonaltı yılı toplam müsteri sayısını giriniz:"))
-           ikibinonaltiYili=(x/y)
-           return ikibinonaltiYili
+            def ikibinonaltiYiliHesapla ():
+            x= int(input("İkibinonaltı yılı çalışılan süreyi giriniz:"))
+            y= int(input("İkibinonaltı yılı toplam müsteri sayısını giriniz:"))
+            ikibinonaltiYili=(x/y)
+            return ikibinonaltiYili
 
             def ikibinonyediYiliHesapla ():
             z= int(input("İkibinonyedi yılı çalışılan süreyi giriniz:"))
