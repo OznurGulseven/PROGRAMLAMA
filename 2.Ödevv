@@ -1,0 +1,91 @@
+#Ödev 1
+
+              x=int(input("toplam satış miktarını giriniz:"))
+              y=int(input("hammadde maliyetini giriniz:"))
+              z=int(input("bakım onarım giderlerini giriniz:"))
+              q=int(input("sevkiyat giderlerini giriniz:"))
+              w=int(input("satın alınan hizmet giderlerini giriniz:"))
+              katmadegerciro=(x-(y+z+q+w))
+              if (int(katmadegerciro)>1000):
+               print("İşletmenin katma değer cirosu yüksektir.")
+              elif (int(katmadegerciro)<500):
+               print("İşletmenin katma değer cirosu düşüktür.")
+              else:
+               print("İşletmenin katma değer cirosu normaldir.")
+
+ #Ödev 2
+
+
+             def ikibinonaltiYiliHesapla ():
+             x= int(input("İkibinonaltı yılı çalışılan süreyi giriniz:"))
+             y= int(input("İkibinonaltı yılı toplam müsteri sayısını giriniz:"))
+             ikibinonaltiYili=(x/y)
+             return ikibinonaltiYili
+
+             def ikibinonyediYiliHesapla ():
+             z= int(input("İkibinonyedi yılı çalışılan süreyi giriniz:"))
+             q= int(input("İkibinonyedi yılı toplam müşteri sayısını giriniz:"))
+             ikibinonyediYili=(z/q)
+             return ikibinonyediYili
+
+             def aralarindakiFarkHesapla ():
+             x= int(input("İkibinonaltı yılı çalışılan süreyi giriniz:"))
+             y= int(input("İkibinonaltı yılı toplam müsteri sayısını giriniz:"))
+             z= int(input("İkibinonyedi yılı çalışılan süreyi giriniz:"))
+             q= int(input("İkibinonyedi yılı toplam müşteri sayısını giriniz:"))
+             aralarindakiFark=((z/q)-(x/y))
+             return aralarindakiFark
+
+  #Ödev 3
+
+            def ilkAltiAylikKariHesapla ():
+            x=int(input("yazılım gelirini giriniz:"))
+            y=int(input("finansman gelirini giriniz:"))
+            z=int(input("ürün satış gelirini giriniz:"))
+            q=int(input("çalışan maaşları giderini giriniz."))
+            s=int(input("kira giderini giriniz."))
+            r=int(input("donanım maliyeti giderini giriniz."))
+            ilkAltiAylikKariHesapla =((x+y+z)-(q+s+r))
+            return ilkAltiAylikKariHesapla
+
+
+            def sonAltiAylikKariHesapla ():
+            x=int(input("yazılım gelirini giriniz:"))
+            n=int(input("sponsorluk gelirini giriniz:"))
+            m=int(input("e ticaret gelirini giriniz:"))
+            l=int(input("ürün satış gelirini giriniz:"))
+            q=int(input("çalışan maaşları giderini giriniz."))
+            s=int(input("kira giderini giriniz."))
+            t=int(input("ürün satış maliyeti giderini giriniz."))
+            sonAltiAylikKariHesapla =((x+n+m+l)-(q+s+t))
+            return sonAltiAylikKariHesapla
+
+            k=int(input("İlk altı aylık karı giriniz:"))
+            p=int(input("Son altı aylık karı giriniz:"))
+            isletmeninYillikKari=(k-p)
+            if (int(isletmeninYillikKari)>5000):
+             print("İşletme çok karlıdır.")
+            elif (int(isletmeninYillikKari)<1000):
+             print("İşletme yeterince karda değildir.")
+            else:
+             print("İşletme karı normaldir.")
+
+ #Ödev 4
+
+          def donembasistok ():
+          global ilkstok
+          x=5
+          y=10
+          z=15
+          return ilkstok
+          def donemsonustok ():
+          global sonstok
+          w=30
+          q=35
+          s=40
+          sonstok=w+q+s
+          return sonstok
+
+          #a=donembasistok #b=donemsonustok
+          def ortalamaStokHesapla (a,b):
+           print((a+b)/2)
