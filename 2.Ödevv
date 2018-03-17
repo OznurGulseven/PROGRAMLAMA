@@ -1,4 +1,4 @@
-#Ödev 1
+# Soru 1
 
               x=int(input("toplam satış miktarını giriniz:"))
               y=int(input("hammadde maliyetini giriniz:"))
@@ -12,9 +12,7 @@
                print("İşletmenin katma değer cirosu düşüktür.")
               else:
                print("İşletmenin katma değer cirosu normaldir.")
-
- #Ödev 2
-
+#Soru 2
 
              def ikibinonaltiYiliHesapla ():
              x= int(input("İkibinonaltı yılı çalışılan süreyi giriniz:"))
@@ -36,7 +34,7 @@
              aralarindakiFark=((z/q)-(x/y))
              return aralarindakiFark
 
-  #Ödev 3
+  #Soru 3
 
             def ilkAltiAylikKariHesapla ():
             x=int(input("yazılım gelirini giriniz:"))
@@ -70,7 +68,7 @@
             else:
              print("İşletme karı normaldir.")
 
- #Ödev 4
+ #Soru 4
 
           def donembasistok ():
           global ilkstok
