@@ -1,18 +1,18 @@
 #Ödev 1   
     
     
-     x=int(input("toplam satış miktarını giriniz:"))
-     y=int(input("hammadde maliyetini giriniz:"))
-     z=int(input("bakım onarım giderlerini giriniz:"))
-     q=int(input("sevkiyat giderlerini giriniz:"))
-     w=int(input("satın alınan hizmet giderlerini giriniz:"))
-     katmadegerciro=(x-(y+z+q+w))
-     if (int(katmadegerciro)>1000):
-        print("İşletmenin katma değer cirosu yüksektir.")
-     elif (int(katmadegerciro)<500):
-        print("İşletmenin katma değer cirosu düşüktür.")
-     else:
-        print("İşletmenin katma değer cirosu normaldir.")
+       x=int(input("toplam satış miktarını giriniz:"))
+       y=int(input("hammadde maliyetini giriniz:"))
+       z=int(input("bakım onarım giderlerini giriniz:"))
+       q=int(input("sevkiyat giderlerini giriniz:"))
+       w=int(input("satın alınan hizmet giderlerini giriniz:"))
+       katmadegerciro=(x-(y+z+q+w))
+       if (int(katmadegerciro)>1000):
+         print("İşletmenin katma değer cirosu yüksektir.")
+       elif (int(katmadegerciro)<500):
+         print("İşletmenin katma değer cirosu düşüktür.")
+       else:
+         print("İşletmenin katma değer cirosu normaldir.")
 
 #Ödev 2
      
