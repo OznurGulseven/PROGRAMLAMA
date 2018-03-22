@@ -1,0 +1,83 @@
+#Soru 1
+
+
+satis=500
+birim=20
+ciro=5000
+i=0
+while True:
+    satis=satis+200
+    birim=birim+10
+    ciro=ciro+(satis*birim)
+    i=i+1
+    if(ciro>500000):
+        print(i/12,"yıl sonra 500.000TL den fazla ciro olur.")
+        break
+        
+ #Soru 2
+ 
+ 
+ stok=10000
+ i=0
+ while True:
+    stok=(stok-500)+100
+    i=i+1
+    if(stok==0):
+        print(i,". ayda sıfırlanır")
+        break
+        
+        
+ #Soru 3
+ 
+ 
+toplam=0
+while True:
+     print('Bir sayı giriniz, Çıkış inin 0(sıfır)')
+     girilen=int(input("Sayi: "))
+     if(girilen!=0):
+      a=girilen%3
+      toplam=toplam+a
+      print('Toplam=',toplam)
+     else:
+      print('Çıkış yapıldı')
+      break
+      
+      
+ #Soru 4
+ 
+ 
+   calisansay=1
+   toplamucret=0
+   while(calisansay<=50):
+    haftasay=1
+    mesaisaat=0
+    while(haftasay<=4):
+        haftalikgirilensaat=int(input("haftalık çalışma saatini giriniz:"(calisansay)))
+        mesaisaat += haftalikgirilensaat
+        haftasay+=1
+        if(mesaisaat>22):
+            print('22 saatten fazla mesai hesaplanamaz')
+            mesaisaat -= haftalikgirilensaat
+    calisanmaas=((90*30)+ (mesaisaat*(90*(1/10)))
+    print("bir çalışan alacağı ücret:",calisanmaas)
+    toplamucret += calisanmaas
+    calisansay += 1
+print('aylık toplam ücret:',toplamucret)
+
+
+#Soru 5
+
+
+gunluk_uretilen=200
+gunluk_defolu_urun=0
+toplam_def_urun=0
+i=0
+while(gunluk_defolu_urun<=gunluk_uretilen*0.20):
+    gunluk_defolu_urun=int(input("Günlük Defolu ürün mktari:"))
+    toplam_def_urun=toplam_def_urun+gunluk+gunluk_defolu_urun
+    i=i+1
+    if(gunluk_defolu_urun>gunluk_uretilen*0.20):
+        print("Defolu ürün sayısı limiti aştı")
+        break
+
+print(i,"Günlük","Defolu Ürün Sayısı:",toplam_def_urun)
