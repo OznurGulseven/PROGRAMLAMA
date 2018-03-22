@@ -1,6 +1,5 @@
  #Soru 1
 
-
         satis=500
         birim=20
         ciro=5000
@@ -16,7 +15,6 @@
         
  #Soru 2
  
- 
         stok=10000
         i=0
         while True:
@@ -28,7 +26,6 @@
         
          
  #Soru 3
- 
  
        toplam=0
        while True:
@@ -45,10 +42,9 @@
       
  #Soru 4
  
- 
         calisansay=1
         toplamucret=0
-         while(calisansay<=50):
+        while(calisansay<=50):
                haftasay=1
                mesaisaat=0
         while(haftasay<=4):
@@ -66,8 +62,7 @@
 
 
  #Soru 5
-
-
+ 
         gunluk_uretilen=200
         gunluk_defolu_urun=0
         toplam_def_urun=0
